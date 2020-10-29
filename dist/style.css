@@ -1,0 +1,118 @@
+header{
+ position: fixed;
+ background-color: lightgrey;
+ font-family: sans-serif;
+ /*margin-right: 0px;*/  
+ width: 100%;
+ height: auto;
+ top: 0;
+ left: 0;
+ padding: 0px;
+} 
+#header-img{
+  float: left;
+  width: 90px;
+  height: 70px;
+}
+nav ul{
+  float: right
+}
+nav li {
+ text-align: center;
+ padding: 6px;
+ display: inline-block;
+}
+a:link{
+  text-decoration: none;
+  color: black;
+}
+a:visited{
+  text-decoration: none;
+    color: red;
+}
+a:active{
+  text-decoration: underline;
+}
+body{
+  background-color:lightblue;
+}
+
+/*.formfill{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+.email{
+ margin: auto;
+ max-width: 300px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 50%;
+ height: 30px; 
+ box-sizing:border-box;
+ padding: 5x;
+ text-align: center;
+  
+}
+
+
+.containerbutton{
+  margin: auto; 
+  padding: 0 20px;
+  width: 30%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  text-align: center;
+  border-radius: 2px; 
+  border-color: black;
+  background-color: blue;
+  /*text-transform: uppercase;*/
+  font-weight: bold;
+  height: 35px;
+  box-sizing:border-box;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  flex-direction: row;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 20px;
+  padding: 40px;
+  font-size: 30px;
+  justify-content: center;
+}
+.button{
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  items-align: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  float: center;
+  font-size: 14px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+@media (max-width: 75% ) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.thisfooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: black;
+  text-align: left;
+}
